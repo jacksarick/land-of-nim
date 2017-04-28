@@ -1,0 +1,12 @@
+{"compile":[
+["/Users/jack.sarick/Desktop/land_of_nim/nimcache/stack.c", "clang -c  -w  -I/usr/local/Cellar/nim/0.16.0/nim/lib -o /Users/jack.sarick/Desktop/land_of_nim/nimcache/stack.o /Users/jack.sarick/Desktop/land_of_nim/nimcache/stack.c"],
+["/Users/jack.sarick/Desktop/land_of_nim/nimcache/stdlib_system.c", "clang -c  -w  -I/usr/local/Cellar/nim/0.16.0/nim/lib -o /Users/jack.sarick/Desktop/land_of_nim/nimcache/stdlib_system.o /Users/jack.sarick/Desktop/land_of_nim/nimcache/stdlib_system.c"]
+],
+"extcompile":[
+],
+"link":[
+"/Users/jack.sarick/Desktop/land_of_nim/nimcache/stdlib_system.o",
+"/Users/jack.sarick/Desktop/land_of_nim/nimcache/stack.o"
+],
+"linkcmd": "clang   -o /Users/jack.sarick/Desktop/land_of_nim/stack  /Users/jack.sarick/Desktop/land_of_nim/nimcache/stdlib_system.o /Users/jack.sarick/Desktop/land_of_nim/nimcache/stack.o  -ldl"
+}
