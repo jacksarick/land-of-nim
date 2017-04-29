@@ -6,11 +6,13 @@ A game I'm making. It's text based and online and multiplayer and maybe fun?
 
 Here's the outline:
 
-Connect to server. Screen contains both characters stats, map, log of recent actions, and input.
+Connect to server
+
+Screen contains both characters stats, map, log of recent actions, and input.
+
+Pick a class (maybe build it?)
 
 Characters take turns issuing commands
-
-First one dead loses
 
 Turn break down:
 	- Start
@@ -20,3 +22,5 @@ Turn break down:
 	- Evaluate
 	- Broadcast result
 	- End
+
+First one dead loses
